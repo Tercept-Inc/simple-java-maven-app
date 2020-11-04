@@ -26,6 +26,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: my-artifact
+        path: /opt/ 
         retention-days: 3
     - name: Download a single artifact
       uses: actions/download-artifact@v2
