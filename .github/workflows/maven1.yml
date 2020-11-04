@@ -26,7 +26,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: my-artifact
-        path: my_file.jar
+        path: target/my-app-1.0-SNAPSHOT.jar
         retention-days: 3
     - name: Download a single artifact
       uses: actions/download-artifact@v2
